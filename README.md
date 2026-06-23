@@ -4,6 +4,8 @@ A merchant dashboard and payment links platform built as a take-home assignment.
 
 🔗 **Live Demo:** https://bepay-merchant-app-ten.vercel.app/
 
+🎥 **Walkthrough Video:** https://drive.google.com/file/d/1N4CXdqjIGZEmdVsM1mV13a-eXIiuzuI7/view?usp=sharing
+
 ---
 
 ## Features
