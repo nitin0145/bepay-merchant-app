@@ -6,14 +6,10 @@ import { router } from './routes';
 import './index.css';
 
 async function enableMocking() {
-  // Always run MSW in dev environment
-  if (import.meta.env.DEV) {
-    const { worker } = await import('./mocks/browser');
-    return worker.start({
-      onUnhandledRequest: 'bypass',
-    });
-  }
-  return Promise.resolve();
+  const { worker } = await import('./mocks/browser');
+  return worker.start({
+    onUnhandledRequest: 'bypass',
+  });
 }
 
 enableMocking().then(() => {
